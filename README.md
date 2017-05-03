@@ -81,4 +81,5 @@ Access WebUI at http://localhost:8181 and walk through the wizard.
 
 ## Versions
 
++ **03.05.17:** Reduce layer, replace broken source for shntool.
 + **10.12.16:** Inital Release
