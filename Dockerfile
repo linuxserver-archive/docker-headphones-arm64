@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.python.arm64
+FROM lsiobase/alpine.python.arm64:3.6
 MAINTAINER smdion <me@seandion.com> ,sparklyballs
 
 # set version label
@@ -6,7 +6,7 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# copy patches folder
+# copy patches folder
 COPY patches/ /tmp/patches/
 
 # install build packages
@@ -19,6 +19,7 @@ RUN \
 # install runtime packages
  apk add --no-cache \
 	ffmpeg \
+	flac \
 	mc && \
 
 # compile shntool
