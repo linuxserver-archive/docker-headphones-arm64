@@ -27,7 +27,7 @@ RUN \
 	/tmp/shntool && \
  curl -o \
  /tmp/shntool-src-tar.gz -L \
-	http://shnutils.freeshell.org/shntool/dist/src/shntool-3.0.10.tar.gz && \
+	http://etree.org/shnutils/shntool/dist/src/shntool-3.0.10.tar.gz && \
  tar xf /tmp/shntool-src-tar.gz -C \
 	/tmp/shntool --strip-components=1 && \
  cp /tmp/patches/config.* /tmp/shntool && \
