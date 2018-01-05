@@ -81,7 +81,7 @@ Access WebUI at http://localhost:8181 and walk through the wizard.
 
 ## Versions
 
-+ **05.01.18:** Rebase to alpine 3.6, Deprecate cpu_core routine lack of scaling.
++ **05.01.18:** Rebase to alpine 3.7.
 + **20.07.17:** Internal git pull instead of at runtime.
 + **30.05.17:** Add flac package to handle FLAC based .cue.
 + **30.05.17:** Rebase to alpine 3.6.
